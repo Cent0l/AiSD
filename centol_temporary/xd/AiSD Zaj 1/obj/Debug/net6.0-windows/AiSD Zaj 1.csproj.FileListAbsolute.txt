@@ -1,0 +1,34 @@
+C:\Users\local\Desktop\161318\AiSD Zaj 1\AiSD Zaj 1\bin\Debug\net6.0-windows\AiSD Zaj 1.exe
+C:\Users\local\Desktop\161318\AiSD Zaj 1\AiSD Zaj 1\bin\Debug\net6.0-windows\AiSD Zaj 1.deps.json
+C:\Users\local\Desktop\161318\AiSD Zaj 1\AiSD Zaj 1\bin\Debug\net6.0-windows\AiSD Zaj 1.runtimeconfig.json
+C:\Users\local\Desktop\161318\AiSD Zaj 1\AiSD Zaj 1\bin\Debug\net6.0-windows\AiSD Zaj 1.dll
+C:\Users\local\Desktop\161318\AiSD Zaj 1\AiSD Zaj 1\bin\Debug\net6.0-windows\AiSD Zaj 1.pdb
+C:\Users\local\Desktop\161318\AiSD Zaj 1\AiSD Zaj 1\obj\Debug\net6.0-windows\AiSD Zaj 1.csproj.AssemblyReference.cache
+C:\Users\local\Desktop\161318\AiSD Zaj 1\AiSD Zaj 1\obj\Debug\net6.0-windows\AiSD_Zaj_1.Form1.resources
+C:\Users\local\Desktop\161318\AiSD Zaj 1\AiSD Zaj 1\obj\Debug\net6.0-windows\AiSD Zaj 1.csproj.GenerateResource.cache
+C:\Users\local\Desktop\161318\AiSD Zaj 1\AiSD Zaj 1\obj\Debug\net6.0-windows\AiSD Zaj 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\local\Desktop\161318\AiSD Zaj 1\AiSD Zaj 1\obj\Debug\net6.0-windows\AiSD Zaj 1.AssemblyInfoInputs.cache
+C:\Users\local\Desktop\161318\AiSD Zaj 1\AiSD Zaj 1\obj\Debug\net6.0-windows\AiSD Zaj 1.AssemblyInfo.cs
+C:\Users\local\Desktop\161318\AiSD Zaj 1\AiSD Zaj 1\obj\Debug\net6.0-windows\AiSD Zaj 1.csproj.CoreCompileInputs.cache
+C:\Users\local\Desktop\161318\AiSD Zaj 1\AiSD Zaj 1\obj\Debug\net6.0-windows\AiSD Zaj 1.dll
+C:\Users\local\Desktop\161318\AiSD Zaj 1\AiSD Zaj 1\obj\Debug\net6.0-windows\refint\AiSD Zaj 1.dll
+C:\Users\local\Desktop\161318\AiSD Zaj 1\AiSD Zaj 1\obj\Debug\net6.0-windows\AiSD Zaj 1.pdb
+C:\Users\local\Desktop\161318\AiSD Zaj 1\AiSD Zaj 1\obj\Debug\net6.0-windows\AiSD Zaj 1.genruntimeconfig.cache
+C:\Users\local\Desktop\161318\AiSD Zaj 1\AiSD Zaj 1\obj\Debug\net6.0-windows\ref\AiSD Zaj 1.dll
+C:\Users\local\Desktop\centol_temporary\xd\AiSD Zaj 1\bin\Debug\net6.0-windows\AiSD Zaj 1.exe
+C:\Users\local\Desktop\centol_temporary\xd\AiSD Zaj 1\bin\Debug\net6.0-windows\AiSD Zaj 1.deps.json
+C:\Users\local\Desktop\centol_temporary\xd\AiSD Zaj 1\bin\Debug\net6.0-windows\AiSD Zaj 1.runtimeconfig.json
+C:\Users\local\Desktop\centol_temporary\xd\AiSD Zaj 1\bin\Debug\net6.0-windows\AiSD Zaj 1.dll
+C:\Users\local\Desktop\centol_temporary\xd\AiSD Zaj 1\bin\Debug\net6.0-windows\AiSD Zaj 1.pdb
+C:\Users\local\Desktop\centol_temporary\xd\AiSD Zaj 1\obj\Debug\net6.0-windows\AiSD Zaj 1.csproj.AssemblyReference.cache
+C:\Users\local\Desktop\centol_temporary\xd\AiSD Zaj 1\obj\Debug\net6.0-windows\AiSD_Zaj_1.Form1.resources
+C:\Users\local\Desktop\centol_temporary\xd\AiSD Zaj 1\obj\Debug\net6.0-windows\AiSD Zaj 1.csproj.GenerateResource.cache
+C:\Users\local\Desktop\centol_temporary\xd\AiSD Zaj 1\obj\Debug\net6.0-windows\AiSD Zaj 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\local\Desktop\centol_temporary\xd\AiSD Zaj 1\obj\Debug\net6.0-windows\AiSD Zaj 1.AssemblyInfoInputs.cache
+C:\Users\local\Desktop\centol_temporary\xd\AiSD Zaj 1\obj\Debug\net6.0-windows\AiSD Zaj 1.AssemblyInfo.cs
+C:\Users\local\Desktop\centol_temporary\xd\AiSD Zaj 1\obj\Debug\net6.0-windows\AiSD Zaj 1.csproj.CoreCompileInputs.cache
+C:\Users\local\Desktop\centol_temporary\xd\AiSD Zaj 1\obj\Debug\net6.0-windows\AiSD Zaj 1.dll
+C:\Users\local\Desktop\centol_temporary\xd\AiSD Zaj 1\obj\Debug\net6.0-windows\refint\AiSD Zaj 1.dll
+C:\Users\local\Desktop\centol_temporary\xd\AiSD Zaj 1\obj\Debug\net6.0-windows\AiSD Zaj 1.pdb
+C:\Users\local\Desktop\centol_temporary\xd\AiSD Zaj 1\obj\Debug\net6.0-windows\AiSD Zaj 1.genruntimeconfig.cache
+C:\Users\local\Desktop\centol_temporary\xd\AiSD Zaj 1\obj\Debug\net6.0-windows\ref\AiSD Zaj 1.dll
