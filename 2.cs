@@ -28,8 +28,10 @@ namespace WinFormsApp1
             //Bubblesort(tab);
             int[] bubul = Bubblesortint(tab);
             String bubuls = tostring(bubul);
-            MessageBox.Show(tabs);
-            MessageBox.Show(bubuls);
+            //MessageBox.Show(tabs);
+            //MessageBox.Show(bubuls);
+            lbl2.Text = tabs;
+            lbl1.Text = bubuls;
 
         }
         String tostring(int[] tab)
@@ -40,6 +42,19 @@ namespace WinFormsApp1
                 ret=ret+tab[i]+" ";
             }
             return ret;
+        }
+        int[] Selectsort(int[] tab)
+        {
+            int min = tab[0];
+            for (int i = 0; i < tab.Length; i++)
+            {
+                for (int j=0;j<tab.Length;j++)
+                {
+                    
+
+                }
+            }
+
         }
         void Bubblesort(int[] tab)
         {
@@ -81,6 +96,7 @@ namespace WinFormsApp1
             }
             return tab;
         }
+
         int Fib(int n)
         {
             if (n == 0) return 0;
@@ -141,7 +157,18 @@ namespace WinFormsApp1
         {
 
         }
+        private void lbl1_Click(object sender, EventArgs e)
+        {
+            
+        }
+        private void lbl2_Click(object sender, EventArgs e)
+        {
+            
+        }
 
-        
+        private void lbl3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
