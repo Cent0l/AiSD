@@ -13,7 +13,7 @@ namespace WinFormsApp1
             int[] tab = fromstring(strdef);
             int[] ret = Selectsort(tab);
             int[] ret2 = Bubblesort(tab);
-            int[] ret3 = Insertsort(tab);
+            int[] ret3 = Centolsort(tab);
             String str1 = tostring(ret);
             String str2 = tostring(ret2);
             String str3 = tostring(ret3);
@@ -86,7 +86,7 @@ namespace WinFormsApp1
             return tab;
         }
 
-        int[] Insertsort(int[] tab)
+        int[] Centolsort(int[] tab)
         {
             int min = tab[0];
             int temp = 0;
