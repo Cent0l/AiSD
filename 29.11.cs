@@ -240,8 +240,11 @@ wezel3 znajdzmin(wezel3 w)
     wezel3 znajdzmax(wezel3 w)
  //minimum idz do prawej od podanego wezla
 wezel3 nastepny(wezel3 w)
+    /*
     a) jest prawe dziecko(cos jak sortowanie)
     znajdz min na prawym dziecku
     b)nie ma dziecka prawego
     idz do gory tak dlugo az wyjdziesz jako lewe dziecko
     c)nie moge isc do gory lub wychodze jako ciagle prawe dziecko
+    brak nastepnika
+    */
