@@ -19,6 +19,7 @@ namespace WinFormsApp3
 
         private void btnStart_Click(object sender, EventArgs e)
         {
+            /*
             var w1 = new Węzeł(5);
             var w2 = new Węzeł(3);
             var w3 = new Węzeł(1);
@@ -49,12 +50,18 @@ namespace WinFormsApp3
             //B(p1);
             //MessageBox.Show(napis);
 
-         
+         */
+            var d = new DrzewoBinarne(5);
+            d.Add(4);
+            d.Add(4);
+            d.Add(8);
+            d.Add(7);
+            d.Add(9);
+            d.Add(5);
+            d.Add(6);
 
-          
-
-            // Display the result
-            MessageBox.Show(napis);
+            
+            MessageBox.Show(d.ToString());
         }
 
         void A(Węzeł w)
@@ -158,6 +165,24 @@ public class Wezel3
         this.prawe = null;
         this.lewe = null;
     }
+
+    internal void Add(int a)
+    {
+        var dziecko = new Wezel3(a);
+        dziecko.rodzic = this;
+        if(a<this.wartosc)
+        {
+            this.lewe = dziecko;
+        }
+        else
+        {
+            this.prawe = dziecko;
+        }
+    }
+    public override string ToString()
+    {
+        return this.wartosc.ToString();
+    }
 }
 class DrzewoBinarne
 {
@@ -204,7 +229,19 @@ class DrzewoBinarne
                 }
             }
         }
-
-
     }
+
 }
+wezel3 znajdz(liczba)
+   // podajesz i ma znalezc pierwsza znaleziona;
+   // jak natrafi to ma zwrocic wezel z wartoscia a jak nie null
+wezel3 znajdzmin(wezel3 w)
+ //minimum idz do prawej od podanego wezla
+    wezel3 znajdzmax(wezel3 w)
+ //minimum idz do prawej od podanego wezla
+wezel3 nastepny(wezel3 w)
+    a) jest prawe dziecko(cos jak sortowanie)
+    znajdz min na prawym dziecku
+    b)nie ma dziecka prawego
+    idz do gory tak dlugo az wyjdziesz jako lewe dziecko
+    c)nie moge isc do gory lub wychodze jako ciagle prawe dziecko
