@@ -1,0 +1,108 @@
+namespace WinFormsApp5
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            List<Wezel4> wezly = new List<Wezel4>();
+            List<Krawedz> krawedz = new List<Krawedz>();
+            var w0 = new Wezel4(0);
+            var w1 = new Wezel4(1);
+            var w2 = new Wezel4(2);
+            var w3 = new Wezel4(3);
+            var w4 = new Wezel4(4);
+            var w5 = new Wezel4(5);
+            var w6 = new Wezel4(6);
+            var w7 = new Wezel4(7);
+            var k1 = new Krawedz(w4, w6, 1);
+            var k2 = new Krawedz(w4, w5, 2);
+            var k3 = new Krawedz(w2, w7, 3);
+            var k4 = new Krawedz(w0, w6, 3);
+            var k5 = new Krawedz(w2, w4, 4);
+            var k6 = new Krawedz(w0, w1, 5);
+            var k7 = new Krawedz(w2, w6, 5);
+            var k8 = new Krawedz(w1, w5, 6);
+            var k9 = new Krawedz(w5, w6, 6);
+            var k10 = new Krawedz(w1, w7, 7);
+            var k11 = new Krawedz(w1, w4, 8);
+            var k12 = new Krawedz(w3, w6, 8);
+            var k13 = new Krawedz(w0, w3, 9);
+            var k14 = new Krawedz(w1, w2, 9);
+            var k15 = new Krawedz(w2, w3, 9);
+            var k16 = new Krawedz(w6, w7, 9);
+            {
+                wezly.Add(w0);
+                wezly.Add(w1);
+                wezly.Add(w2);
+                wezly.Add(w3);
+                wezly.Add(w4);
+                wezly.Add(w5);
+                wezly.Add(w6);
+                wezly.Add(w7);
+            }
+
+            {
+                krawedz.Add(k1);
+                krawedz.Add(k2);
+                krawedz.Add(k3);
+                krawedz.Add(k4);
+                krawedz.Add(k5);
+                krawedz.Add(k6);
+                krawedz.Add(k7);
+                krawedz.Add(k8);
+                krawedz.Add(k9);
+                krawedz.Add(k10);
+                krawedz.Add(k11);
+                krawedz.Add(k12);
+                krawedz.Add(k13);
+                krawedz.Add(k14);
+                krawedz.Add(k15);
+                krawedz.Add(k16);
+            }
+            var graf1 = new Graf(wezly, krawedz);
+
+        }
+    }
+    
+    public class Wezel4
+    {
+        int wartosc;
+        public Wezel4(int wartosc)
+        {
+            this.wartosc = wartosc;
+        }
+        public override string ToString()
+        {
+            return this.wartosc.ToString();
+        }
+    }
+    public class Krawedz
+    {
+        int waga;
+        public Wezel4 poczatek;
+        public Wezel4 koniec;
+        public Krawedz(Wezel4 w1, Wezel4 w2, int waga)
+        {
+            this.poczatek = w1;
+            this.koniec = w2;
+            this.waga = waga;
+        }
+    }
+    public class Graf
+    {
+        List<Wezel4> wezly = new List<Wezel4>();
+        List<Krawedz> krawedz = new List<Krawedz>();
+        public Graf(List<Wezel4> wezly, List<Krawedz> krawedz)
+        {
+            this.wezly = wezly;
+            this.krawedz = krawedz;
+        }
+    }
+
+}
