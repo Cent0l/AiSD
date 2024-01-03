@@ -1,0 +1,49 @@
+namespace Dijkstra
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+        public class Wezel
+        {
+            int wartosc;
+            public Wezel(int wartosc)
+            {
+                this.wartosc = wartosc;
+            }
+            public override string ToString()
+            {
+                return this.wartosc.ToString();
+            }
+        }
+        public class Krawedz
+        {
+            int waga;
+            public Wezel poczatek;
+            public Wezel koniec;
+            public Krawedz(Wezel w1, Wezel w2, int waga)
+            {
+                this.poczatek = w1;
+                this.koniec = w2;
+                this.waga = waga;
+            }
+        }
+        public class Graf
+        {
+            List<Wezel> wezly = new List<Wezel>();
+            List<Krawedz> krawedz = new List<Krawedz>();
+            public Graf(List<Wezel> wezly, List<Krawedz> krawedz)
+            {
+                this.wezly = wezly;
+                this.krawedz = krawedz;
+            }
+        }
+    }
+}
