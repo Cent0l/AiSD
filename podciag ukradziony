@@ -1,0 +1,63 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace najwiekszy_wspolny_podciag
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+            string s1 = "babab";
+            string s2 = "abaabbaaa";
+            int n = s1.Length;
+            int m = s2.Length;
+            int[,] tab = new int[n + 1, m + 1];
+            for (int i = 1; i < tab.GetLength(0); i++)
+            {
+                for (int j = 1; j < tab.GetLength(1); j++)
+                {
+                    if (i == 0 || j == 0)
+                    {
+                        tab[i, j] = 0;
+                    }
+                    else if (s1[i - 1] != s2[j - 1])
+                    {
+                        tab[i, j] = Math.Max(tab[i - 1, j], tab[i, j - 1]);
+                    }
+                    else
+                    {
+                        tab[i, j] = tab[i - 1, j - 1] + 1;
+                    }
+                }
+                int x = tab.GetLength(0) - 1;
+                int y = tab.GetLength(1) - 1;
+                string wynik = "";
+                while (x > 1 || y > 1)
+                {
+                    while (tab[x, y] == tab[x, y - 1])
+                    {
+                        y--;
+                    }
+                    while (tab[x, y] == tab[x - 1, y])
+                    {
+                        n--;
+                    }
+                    wynik = s1[x - 1] + wynik;
+                    x--;
+                    y--;
+                    
+                }
+                MessageBox.Show(wynik);
+            }
+            }
+        }
+    }
+}
